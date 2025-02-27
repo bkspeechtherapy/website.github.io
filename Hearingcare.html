@@ -78,7 +78,7 @@
                          <li><a href="index.html" class="smoothScroll">Home</a></li>
                          <li><a href="profile.html" class="smoothScroll">Dr.B.K. Mishra</a></li>
                          <li><a href="services.html" class="smoothScroll">Services</a></li>
-                         <li><a href="#news" class="smoothScroll">Success Stories</a></li>
+                         <li><a href="SuccessStories.html" class="smoothScroll">Success Stories</a></li>
                          <li><a href="#appointment" class="smoothScroll">Contact Us</a></li>
                            <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Hearing Care <span class="caret"></span></a>
@@ -95,7 +95,7 @@
 
 
      <!-- HOME -->
-     <section id="home" class="slider" data-stellar-background-ratio="0.5">
+     <!--<section id="home" class="slider" data-stellar-background-ratio="0.5">
           <div class="container">
                <div class="row">
 
@@ -133,7 +133,7 @@
 
                </div>
           </div>
-     </section>
+     </section>-->
 
      <!-- Services -->
 <section id="services" class="services-section" style="padding: 2em 0px;">
@@ -203,22 +203,175 @@
                               <h2 class="text-center">Our Exemplary Facilities and Services</h2>
                               <h3 class="text-center">Some of the best facilities and services offered at our system</h3>
                     </div>
+<!--Hearing-Testing-Section-->
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <img src="images/Hearingtesting.jpeg" alt="best speech hearing center in lucknow" style="height:190px; width:100%;">
                             <div class="caption">
                                 <h3 class="text-center">Hearing Test</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
-                        </div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Hearing Test</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="images/oae.png" alt="Project Image 1" class="img-responsive">
                     </div>
+                    <div class="col-md-6">
+                        <h4>Otoacoustic Emissions(OAE) Test</h4>
+                        <p>The OAE (Otoacoustic Emission) test measures inner ear function by detecting sounds produced by the cochlea's outer hair cells in response to sound stimuli. It's noninvasive and used primarily for infants and children to screen for hearing issues, indicating normal or potential hearing problems based on the presence or absence of emissions.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="images/beratest.jpeg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Brainstem Evoked Response Audiometry (BERA) Test</h4>
+                        <p>The BERA test measures the reaction of the parts of a child’s nervous system that affect hearing. The ABR test measures the auditory nerve’s response to sounds. It performed if a newborn or infant fails the hearing screening.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/tym.png" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Tympanometry Impedance Audiometry</h4>
+                        <p>Tympanometry can help diagnose disorders that can lead to hearing loss, especially in children. The test measures the movement of your tympanic membrane in response to changes in pressure.</p>
+                    </div>
+                </div>
+
+                <hr>
+
+                <!-- Forth image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/pta.png" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Pure Tone Audiometry(PTA) Test</h4>
+                        <p>Pure tone audiometry (PTA) is the key hearing test used to identify hearing threshold levels of an individual, enabling determination of the degree, type and configuration of a hearing loss and thus providing a basis for diagnosis and management.</p>
+                    </div>
+                </div>
+                
+                <hr>
+
+                
+               <!-- Fifth image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="images/assr.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Auditory Steady-State Response (ASSR) Test</h4>
+                        <p>The Auditory Steady-State Response (ASSR) test is an electrophysiological assessment that uses rapid auditory stimuli to estimate hearing thresholds. It is objective, allowing simultaneous testing of multiple frequencies in both ears, and is commonly used for infants and difficult-to-test individuals to create an estimated audiogram</p>
+                    </div>
+                </div>
+            </div>
+          
+            
+            
+            
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<!--Hearing-Aid-Section-->
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <img src="images/Hearing Aid.jpeg" alt="best speech hearing center lucknow" style="height:190px; width:100%;">
                             <div class="caption">
                                 <h3 class="text-center">Hearing Aid</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Profile Gallery</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image1.jpg" alt="Project Image 1" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 1</h4>
+                        <p>Detailed description about this project. You can include information about the technologies used, your role, the challenges faced, and the results achieved. This text will appear alongside the image.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image2.jpg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 2</h4>
+                        <p>Another project description goes here. Explain what this project entailed, your contributions, and any notable outcomes or learnings. You can also include links if necessary.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image3.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 3</h4>
+                        <p>Description for your third project or accomplishment. This section can highlight skills, technology stack, or specific achievements that are worth mentioning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">View Full Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -227,7 +380,67 @@
                             <div class="caption">
                                 <h3 class="text-center">Hearing Aid Trials Trials</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Profile Gallery</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image1.jpg" alt="Project Image 1" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 1</h4>
+                        <p>Detailed description about this project. You can include information about the technologies used, your role, the challenges faced, and the results achieved. This text will appear alongside the image.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image2.jpg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 2</h4>
+                        <p>Another project description goes here. Explain what this project entailed, your contributions, and any notable outcomes or learnings. You can also include links if necessary.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image3.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 3</h4>
+                        <p>Description for your third project or accomplishment. This section can highlight skills, technology stack, or specific achievements that are worth mentioning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">View Full Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
 
@@ -237,7 +450,67 @@
                          <div class="caption">
                                 <h3 class="text-center">Cochlear Implant</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Profile Gallery</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image1.jpg" alt="Project Image 1" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 1</h4>
+                        <p>Detailed description about this project. You can include information about the technologies used, your role, the challenges faced, and the results achieved. This text will appear alongside the image.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image2.jpg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 2</h4>
+                        <p>Another project description goes here. Explain what this project entailed, your contributions, and any notable outcomes or learnings. You can also include links if necessary.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image3.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 3</h4>
+                        <p>Description for your third project or accomplishment. This section can highlight skills, technology stack, or specific achievements that are worth mentioning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">View Full Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4">
@@ -246,7 +519,67 @@
                             <div class="caption">
                                 <h3 class="text-center">Proper Follow-Ups</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Profile Gallery</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image1.jpg" alt="Project Image 1" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 1</h4>
+                        <p>Detailed description about this project. You can include information about the technologies used, your role, the challenges faced, and the results achieved. This text will appear alongside the image.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image2.jpg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 2</h4>
+                        <p>Another project description goes here. Explain what this project entailed, your contributions, and any notable outcomes or learnings. You can also include links if necessary.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image3.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 3</h4>
+                        <p>Description for your third project or accomplishment. This section can highlight skills, technology stack, or specific achievements that are worth mentioning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">View Full Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
                     <div class="col-sm-6 col-md-4" style="margin-left:-1px;">
@@ -255,7 +588,67 @@
                             <div class="caption">
                                 <h3 class="text-center">Remote Consultation</h3>
                             </div>
-                            <div class="text-center"><button class="section-btn btn btn-default smoothScroll"><a href="profile.html">Know More</a></button></div>
+                            <div class="text-center">
+    <button class="section-btn btn btn-default smoothScroll" data-toggle="modal" data-target="#profileModal">
+        Know More
+    </button>
+</div>
+
+<!-- Modal (Popup) with Images -->
+<div class="modal fade" id="profileModal" tabindex="-1" role="dialog" aria-labelledby="profileModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h4 class="modal-title" id="profileModalLabel">Profile Gallery</h4>
+            </div>
+            <div class="modal-body">
+                <!-- First image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image1.jpg" alt="Project Image 1" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 1</h4>
+                        <p>Detailed description about this project. You can include information about the technologies used, your role, the challenges faced, and the results achieved. This text will appear alongside the image.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Second image with description -->
+                <div class="row" style="margin-bottom: 20px;">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image2.jpg" alt="Project Image 2" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 2</h4>
+                        <p>Another project description goes here. Explain what this project entailed, your contributions, and any notable outcomes or learnings. You can also include links if necessary.</p>
+                    </div>
+                </div>
+                
+                <hr>
+                
+                <!-- Third image with description -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <img src="path/to/your/image3.jpg" alt="Project Image 3" class="img-responsive">
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Project Title 3</h4>
+                        <p>Description for your third project or accomplishment. This section can highlight skills, technology stack, or specific achievements that are worth mentioning.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" onclick="window.location.href='profile.html'">View Full Profile</button>
+            </div>
+        </div>
+    </div>
+</div>
                         </div>
                     </div>
                 </div>
